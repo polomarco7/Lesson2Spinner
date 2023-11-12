@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.lesson2spinner.SpinningWheelView
+        android:id="@+id/wheel"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:wheel_items="@array/colors"
+        app:wheel_arrow_color="@android:color/black"
+        app:wheel_arrow_height="30dp"
+        app:wheel_arrow_width="20dp"
+        app:wheel_colors="@array/rainbow_dash"
+        app:wheel_stroke_color="@android:color/black"
+        app:wheel_stroke_width="3dp"
+        app:wheel_text_size="18dp"/>
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Start"/>
+    <Button
+    android:id="@+id/resetBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Reset"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:scaleType="matrix"
+        android:layout_height="match_parent"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

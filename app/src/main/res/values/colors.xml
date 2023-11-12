@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="paletteRed">#c20000</color>
+    <color name="paletteCyan">#0288D1</color>
+    <color name="paletteOrange">#ff7400</color>
+    <color name="paletteYellow">#FBC02D</color>
+    <color name="paletteBlue">#303F9F</color>
+    <color name="palettePurple">#512DA8</color>
+    <color name="paletteGreen">#00e800</color>
+
+    <string-array name="rainbow_dash">
+        <item>@color/paletteRed</item>
+        <item>@color/paletteOrange</item>
+        <item>@color/paletteYellow</item>
+        <item>@color/paletteGreen</item>
+        <item>@color/paletteCyan</item>
+        <item>@color/paletteBlue</item>
+        <item>@color/palettePurple</item>
+    </string-array>
+</resources>
